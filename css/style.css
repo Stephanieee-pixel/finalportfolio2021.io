@@ -8,6 +8,7 @@ body,
   text-align: center;
   background-color: #ddd5d0;
 }
+
 button {
   text-align: center;
 }
@@ -36,8 +37,9 @@ html {
   color: #f3ffb9;
   font-family: "Marck Script", cursive;
 }
-.display-4 {
+.display-3 {
   font-family: "Gruppo", cursive;
+  color: #fed0bb;
 }
 .jumbotron {
   background-image: url("img/minimalist.jpg");
@@ -58,7 +60,13 @@ html {
   height: 300px;
 }
 #nails {
-  height: 240px;
+  height: 255px;
+}
+#elevate {
+  height: 255px;
+}
+#event {
+  height: 255px;
 }
 #email {
   color: white;
@@ -68,13 +76,16 @@ html {
 }
 .fa {
   padding: 20px;
-  font-size: 55px;
-  width: 30px;
+  font-size: 60px;
+  width: 60px;
+  height: 60px;
   text-align: center;
-  text-decoration: none;
-  margin: 6px 4px;
+  margin: 0 15px;
   border-radius: 50%;
+  display: flex;
+  position: relative;
 }
+
 .fa:hover {
   opacity: 0.7;
 }
