@@ -8,6 +8,9 @@ body,
   text-align: center;
   background-color: #ddd5d0;
 }
+#Home {
+  color: #acd8aa;
+}
 
 button {
   text-align: center;
